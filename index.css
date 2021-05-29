@@ -1,0 +1,178 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.portada {
+    width: 100%;
+    height: 80%;
+    background-image:url('https://static.wixstatic.com/media/b88492_8d5e951fb5b747de987df1371e353f7e~mv2_d_2000_1335_s_2.jpg/v1/fill/w_1028,h_686,al_c,q_85,usm_0.66_1.00_0.01/b88492_8d5e951fb5b747de987df1371e353f7e~mv2_d_2000_1335_s_2.webp');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Josefin Sans', sans-serif;    
+}
+
+h1 {
+    color: white;
+    font-size: 10em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
+.navlist {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    font-family: 'Josefin Sans', sans-serif;    
+}
+
+.navlist li {
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font: bolder;
+    color: blueviolet;
+}
+
+.navlist li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.festivalsection {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.elfestivalcont {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px -1px 9px 1px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 2px -1px 9px 1px rgba(0,0,0,0.45);
+    -moz-box-shadow: 2px -1px 9px 1px rgba(0,0,0,0.45);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.parrafo-elfestival {
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+
+.bandassection {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin 50px 0px;
+}
+
+.card-banda {
+    box-shadow: 2px -1px 9px 1px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 2px -1px 9px 1px rgba(0,0,0,0.45);
+    -moz-box-shadow: 2px -1px 9px 1px rgba(0,0,0,0.45);
+    width: 15%;   
+    border-radius: 20px 
+}
+
+.card-banda img {
+    width: 100%;
+    
+}
+
+
+.card-banda h3 {
+    text-align: center;
+}
+
+.card-banda p {
+    text-align: center;
+}
+
+.contactosection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact {
+    width: 50%;  
+}
+
+.cont-input {
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+ 
+.cont-input input {
+    width: 80%;
+}
+
+.cont-input textarea {
+    width: 80%
+    ;
+}
+
+.cont-button {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    background-color: black;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-social {
+    display: flex;
+
+}
+
+.cont-social i {
+    color: white;    
+    font-size: 2em;
+    margin: 0px 10px;
+}
+
+.icon-fb:hover {
+color: #3b5998;
+}
+
+.icon-tw:hover{
+color: #1da1f2;
+}
+
+.icon-insta:hover{
+color: #833ab4;
+}
